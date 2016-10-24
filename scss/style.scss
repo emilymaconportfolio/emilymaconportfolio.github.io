@@ -1,0 +1,61 @@
+$sections: 12; // even number, duh!
+$angle: 360 / $sections;
+$radangle: $angle / 180 * 3.14159;
+$height: 70vmax;
+$width: (tan($radangle/2) * $height) * 2;
+
+body {
+	overflow: hidden;
+	background-color: #222;
+}
+
+.container {
+	position: absolute;
+	width: 140vmax;
+	height: 140vmax;
+	top: 50%;
+	left: 50%;
+	animation: spin 60s linear infinite;
+}
+
+section {
+	position: absolute;
+	left: 50%;
+	bottom: 50%;
+	width: $width;
+	height: $height;
+	clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+	transform-origin: 50% 100%;
+	background-image: url('http://blucube.net/stuff/codepen-assets/kaleidoscope/glass.jpg');
+	background-size: auto 150%;
+	animation: move-background 12s infinite alternate ease-in-out;
+}
+
+@for $i from 1 through $sections {
+	.sect-#{$i} {
+		@if(($i % 2) == 0) {
+			transform: translateX(-50%) rotateZ($i * $angle * 1deg);
+		}
+		@else {
+			transform: translateX(-50%) rotateY(180deg) rotateZ($i * $angle * 1deg);
+		}
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: translateX(-50%) translateY(-50%) rotateZ(0deg);
+	}
+	100% {
+		transform: translateX(-50%) translateY(-50%) rotateZ(-360deg);
+	}
+}
+
+@keyframes move-background {
+	0% {
+		background-position: 100% 0%;
+	}
+	100% {
+		background-position: 0% 100%;
+	}
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1337px" height="1337px" viewBox="0 0 1337 1337" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M107,0 L809,0 L809,899 L107,899 L107,0 Z M763,0 L809,0 L809,46 L763,46 L763,0 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="702" height="899" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M182.5,365 C283.291967,365 365,283.291967 365,182.5 C365,81.7080332 283.291967,0 182.5,0 C81.7080332,0 0,81.7080332 0,182.5 C0,283.291967 81.7080332,365 182.5,365 Z M687.5,365 C788.291967,365 870,283.291967 870,182.5 C870,81.7080332 788.291967,0 687.5,0 C586.708033,0 505,81.7080332 505,182.5 C505,283.291967 586.708033,365 687.5,365 Z" id="path-3"></path>
+        <path d="M146.705228,0 L1115.76196,0 L1115.76196,1241 L146.705228,1241 L146.705228,0 Z M1052.26251,0 L1115.76196,0 L1115.76196,63.4994438 L1052.26251,63.4994438 L1052.26251,0 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="969.05673" height="1241" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-12">
+            <g id="Group-8">
+                <g id="Group-6">
+                    <circle id="Oval" fill="#FFFFFF" cx="668.5" cy="668.5" r="668.5"></circle>
+                    <g id="res-orig" transform="translate(209.000000, 201.000000)">
+                        <use id="Combined-Shape" stroke="#1B1B1B" mask="url(#mask-2)" stroke-width="8" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        <g id="Group" transform="translate(24.000000, 276.000000)"></g>
+                        <text id="EMILY-MACON" font-family="AbhayaLibre-Bold, Abhaya Libre" font-size="100" font-weight="bold" fill="#1B1B1B">
+                            <tspan x="146" y="154">EMILY MACON</tspan>
+                        </text>
+                        <g id="Group-3" transform="translate(146.000000, 509.000000)" stroke="#1B1B1B" stroke-linecap="square">
+                            <path d="M0.558035714,1 L359.381943,1" id="Line-Copy-6" stroke-width="20"></path>
+                            <path d="M0.558035714,51 L623.899915,51" id="Line-Copy-7" stroke-width="10"></path>
+                            <path d="M0.558035714,96 L623.899915,96" id="Line-Copy-8" stroke-width="10"></path>
+                        </g>
+                        <g id="Group-4" transform="translate(146.000000, 230.000000)" stroke-linecap="square">
+                            <path d="M0.558035714,1 L359.381943,1" id="Line" stroke="#000000" stroke-width="20"></path>
+                            <path d="M0.558035714,51 L623.899915,51" id="Line-Copy-2" stroke="#000000" stroke-width="10"></path>
+                            <path d="M0.558035714,96 L623.899915,96" id="Line-Copy-3" stroke="#000000" stroke-width="10"></path>
+                            <path d="M0.558035714,185 L623.899915,185" id="Line-Copy-4" stroke="#1B1B1B" stroke-width="10"></path>
+                            <path d="M0.558035714,140 L623.899915,140" id="Line-Copy-5" stroke="#000000" stroke-width="10"></path>
+                        </g>
+                        <g id="Group-2" transform="translate(146.000000, 698.000000)" stroke="#1B1B1B" stroke-linecap="square">
+                            <path d="M0.558035714,1 L359.381943,1" id="Line-Copy-11" stroke-width="20"></path>
+                            <path d="M0.558035714,51 L623.899915,51" id="Line-Copy-12" stroke-width="10"></path>
+                            <path d="M0.558035714,96 L623.899915,96" id="Line-Copy-13" stroke-width="10"></path>
+                            <path d="M0.558035714,140 L623.899915,140" id="Line-Copy-15" stroke-width="10"></path>
+                        </g>
+                    </g>
+                    <g id="res-new" transform="translate(233.000000, 477.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#FFFFFF" xlink:href="#path-3"></use>
+                        <g opacity="0.5" mask="url(#mask-4)">
+                            <g transform="translate(-206.553949, -447.000000)">
+                                <use id="Combined-Shape" stroke="#1B1B1B" mask="url(#mask-6)" stroke-width="8" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                <g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(32.130145, 380.996663)"></g>
+                                <text id="EMILY-MACON" stroke="none" fill="none" font-family="AbhayaLibre-Bold, Abhaya Libre" font-size="100" font-weight="bold">
+                                    <tspan x="200.541713" y="180.629588" fill="#1B1B1B">EMILY MACON</tspan>
+                                </text>
+                                <g id="Group-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(200.541713, 702.635150)" stroke-linecap="square">
+                                    <path d="M0.770325163,7.5 L496.098989,7.5" id="Line-Copy-6" stroke="#1B1B1B" stroke-width="15"></path>
+                                    <path d="M0.770325163,76.5 L861.2456,76.5" id="Line-Copy-7" stroke="#1B1B1B" stroke-width="15"></path>
+                                    <path d="M0.770325163,138.5 L861.2456,138.5" id="Line-Copy-8" stroke="#1B1B1B" stroke-width="15"></path>
+                                </g>
+                                <g id="Group-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(200.541713, 317.497219)" stroke-linecap="square">
+                                    <path d="M0.770325163,7.5 L496.098989,7.5" id="Line" stroke="#000000" stroke-width="15"></path>
+                                    <path d="M0.770325163,76.5 L861.2456,76.5" id="Line-Copy-2" stroke="#000000" stroke-width="15"></path>
+                                    <path d="M0.770325163,138.5 L861.2456,138.5" id="Line-Copy-3" stroke="#000000" stroke-width="15"></path>
+                                    <path d="M0.770325163,260.5 L861.2456,260.5" id="Line-Copy-4" stroke="#1B1B1B" stroke-width="15"></path>
+                                    <path d="M0.770325163,198.5 L861.2456,198.5" id="Line-Copy-5" stroke="#000000" stroke-width="15"></path>
+                                </g>
+                                <g id="Group-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(200.541713, 963.535039)" stroke-linecap="square">
+                                    <path d="M0.770325163,1.38042269 L496.098989,1.38042269" id="Line-Copy-11" stroke="#1B1B1B" stroke-width="20"></path>
+                                    <path d="M0.770325163,70.4015573 L861.2456,70.4015573" id="Line-Copy-12" stroke="#1B1B1B" stroke-width="10"></path>
+                                    <path d="M0.770325163,132.520578 L861.2456,132.520578" id="Line-Copy-13" stroke="#1B1B1B" stroke-width="10"></path>
+                                    <path d="M0.770325163,193.259177 L861.2456,193.259177" id="Line-Copy-15" stroke="#1B1B1B" stroke-width="10"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="glasses" transform="translate(185.000000, 477.000000)" stroke="#1B1B1B">
+                        <ellipse id="Oval-2" stroke-width="20" fill-opacity="0.300000012" fill="#2B596E" cx="734.5" cy="182.5" rx="182.5" ry="182.5"></ellipse>
+                        <ellipse id="Oval-2-Copy" stroke-width="20" fill-opacity="0.300000012" fill="#2B596E" cx="230.5" cy="182.5" rx="182.5" ry="182.5"></ellipse>
+                        <path d="M0.5,181 L41.5,181" id="Line" stroke-width="30"></path>
+                        <path d="M922.5,181 L963.5,181" id="Line-Copy" stroke-width="30"></path>
+                        <path d="M413,180.5 C413,180.5 413,120 482.5,120 C552,120 552,180.5 552,180.5" id="Line" stroke-width="20" stroke-linecap="square"></path>
+                    </g>
+                    <g id="Group-5" transform="translate(825.000000, 549.000000)" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round">
+                        <path d="M0.5,120.5 L87.5359121,33.4640879" id="Line"></path>
+                        <path d="M118,2 L118.194916,1.80508382" id="Line-Copy-14"></path>
+                        <path d="M14.5,176.5 L163.520972,27.4790283" id="Line-Copy-9"></path>
+                        <path d="M99.5,157.5 L171.272209,85.7277909" id="Line-Copy-10"></path>
+                    </g>
+                    <g id="Group-5" transform="translate(325.000000, 549.000000)" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round">
+                        <path d="M0.5,120.5 L87.5359121,33.4640879" id="Line"></path>
+                        <path d="M118,2 L118.194916,1.80508382" id="Line-Copy-14"></path>
+                        <path d="M14.5,176.5 L163.520972,27.4790283" id="Line-Copy-9"></path>
+                        <path d="M99.5,157.5 L171.272209,85.7277909" id="Line-Copy-10"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
