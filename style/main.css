@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/apercu_regular_pro.otf');
+}
+
+body {
+    font-family: Apercu;
+    color: white;
+    background-size: 100%;
+    background-color: #f4e6c9;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h1,h4 {
+    text-shadow: 1px 1px 1px #1b1b1b;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+
+.p-t-75 {
+    padding-top: 75px;
+}
+.p-t-50 {
+    padding-top: 50px;
+}
+.p-t-25 {
+    padding-top: 25px;
+}
+.m-t-50 {
+    margin-top: 50px;
+}
+.m-t-25 {
+    margin-top: 25px;
+}
+.m-b-100 {
+    margin-bottom: 100px;
+}
+.m-b-50 {
+    margin-bottom: 50px;
+}
+.m-b-25 {
+    margin-bottom: 25px;
+}
+
+#emily {
+    background: url('images/em.JPG') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 80vh;
+}
+
+
+
+
+
+#resume {
+    background-image: url('../style/images/Resume-Default@0.2x.png');
+}
+#resume-container:hover #resume{
+    background-image: url('../style/images/Resume-Active@0.2x.png');
+}
+#linkedin {
+    background-image: url('../style/images/In-Default2@0.2x.png');
+}
+#linkedin-container:hover #linkedin {
+    background-image: url('../style/images/In-Active@0.2x.png');
+}
+#contact {
+    background-image: url('../style/images/Contact-Default@0.2x.png');
+}
+#contact-container:hover #contact {
+    background-image: url('../style/images/Contact-Active@0.2x.png');
+}
+#kal {
+    background-image: url('../style/images/Kila-Default.png');
+}
+#kal-container:hover #kal {
+    background-image: url('../style/images/Kila-Active.png');
+}
+
+
+
+.yellow-bg {
+    background-color: #F3E4C7;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+#hero {
+    /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    min-height: 150px;
+    min-width: 150px;
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+
+
+
+.icon-container {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    /*border-radius: 100px;*/
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    /*padding: 10px;*/
+}
+
+.icon-container:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+h5 {
+    color: #6B7E93;
+    /*color: #1D232A;*/
+}
+
+.icon-container h5 {
+    padding-top: 25px;
+    /*color: #1D232A;*/
+}
+
+#hello {
+    width:100%;
+}
+
+.footer {
+    padding: 10px;
+    background-color: #E8E9EC;
+}
+
+@media (max-width: 767px) {
+    .icon {
+        min-height: 110px;
+        min-width: 110px;
+    }
+    #emily {
+        background: url('images/em.JPG') no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 500px;
+    }
+}
+

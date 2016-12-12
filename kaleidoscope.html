@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Kaleidoscope</title>
+    <link rel="shortcut icon" type="image/x-icon" href="style/images/fav.png"/>
+    <link rel="stylesheet" href="kaleidoscope-drag-drop/css/style.css">
+        <style>
+                                /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+                                @charset "UTF-8";
+                          @import url(http://fonts.googleapis.com/css?family=Quantico);
+                          html, body {
+                            background: #1b1b1b;
+                          }
+
+                          /* Info */
+                          @keyframes show-info {
+                            0% {
+                              transform: rotateY(120deg);
+                            }
+                            100% {
+                              transform: rotateY(0deg);
+                            }
+                          }
+                          .info {
+                            transition: all 180ms ease-out;
+                            transform-style: preserve-3d;
+                            transform: perspective(800px);
+                            font-family: "Quantico", sans-serif;
+                            position: absolute;
+                            font-size: 12px;
+                            opacity: 0.8;
+                            color: #fff;
+                            width: 240px;
+                            left: 0px;
+                            top: 20px;
+                          }
+                          .info:hover {
+                            box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.05);
+                            opacity: 1;
+                          }
+                          .info h1, .info h2, .info h3 {
+                            line-height: 1;
+                            margin: 5px 0;
+                          }
+                          .info a {
+                            transition: all 200ms ease-out;
+                            border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
+                            text-decoration: none;
+                            opacity: 0.6;
+                            color: #fff;
+                          }
+                          .info a:hover {
+                            opacity: 0.99;
+                          }
+                          .info .about,
+                          .info .more {
+                            transform-origin: 0% 50%;
+                            transform: rotateY(120deg);
+                            margin-bottom: 1px;
+                            background: rgba(0, 0, 0, 0.8);
+                            padding: 12px 15px 12px 20px;
+                          }
+                          .info .about {
+                            animation: show-info 500ms cubic-bezier(0.23, 1, 0.32, 1) 600ms 1 normal forwards;
+                            padding-bottom: 15px;
+                          }
+                          .info .about a {
+                            opacity: 0.9;
+                          }
+                          .info .about h1 {
+                            letter-spacing: -1px;
+                            font-weight: 300;
+                            font-size: 19px;
+                            opacity: 0.95;
+                          }
+                          .info .about h2 {
+                            font-weight: 300;
+                            font-size: 13px;
+                            opacity: 0.8;
+                          }
+                          .info .about h3 {
+                            text-transform: uppercase;
+                            margin-top: 10px;
+                            font-size: 11px;
+                          }
+                          .info .about h3:before {
+                            margin-right: 2px;
+                            font-size: 14px;
+                            content: "›";
+                          }
+                          .info .more {
+                            animation: show-info 500ms cubic-bezier(0.23, 1, 0.32, 1) 500ms 1 normal forwards;
+                            padding: 5px 15px 10px 20px;
+                          }
+                          .info .more a {
+                            text-transform: uppercase;
+                            margin-right: 10px;
+                            font-size: 10px;
+                          }
+
+    </style>
+
+    
+        <!--<script src="js/prefixfree.min.js"></script>-->
+    
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6 center-block">
+        <h5 class="text-xs-center" style="text-align:center;width:100%;font-size:30px; padding-top: 10px; color: #6B7E93;
+">
+            Drag in a photo for infinite entertainment!
+        </h5>
+
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+    
+    <!--<script src='http://dat-gui.googlecode.com/git/build/dat.gui.min.js'></script>-->
+
+    <script src="kaleidoscope-drag-drop/js/index.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+    <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap -->
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.min.js"></script><!-- Bootstrap -->
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-52479080-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    
+    
+  </body>
+</html>

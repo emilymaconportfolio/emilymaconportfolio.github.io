@@ -1,51 +1,108 @@
 <!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <title>CSS Kaleidoscope</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,800" rel="stylesheet">
-  </head>
+<html lang="en">
+<head>
+    <title>Emily Macon Portfolio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="style/images/fav.png"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <!-- Animate -->
+    <link rel="stylesheet" href="style/animate.css/animate.min.css">
+    <!-- Main -->
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
 
-  <body>
-  <div class="container-fluid">
-      <div class="center-all">
-          <div class="text-box">
-              <h1>Hello!</h1>
-              <p>Thanks for stopping by.</p>
-              <p>Portfolio refresh is coming soon.</p>
-          </div>
-      </div>
-  </div>
 
-  <div class="container-fluid">
-      <div class="center-all">
-          <a href="Emily-Macon-Resume.pdf" target="_blank"><div id="resume"></div></a>
-          <a href="mailto:emilygmacon@gmail.com" target="_blank"><div id="email"></div></a>
-          <a href="https://www.linkedin.com/in/emilymacon" target="_blank"><div id="linkedin"></div></a>
-      </div>
-  </div>
-
-    <div class="kilo-container">
-        <section class="sect-1"></section>
-        <section class="sect-2"></section>
-        <section class="sect-3"></section>
-        <section class="sect-4"></section>
-        <section class="sect-5"></section>
-        <section class="sect-6"></section>
-        <section class="sect-7"></section>
-        <section class="sect-8"></section>
-        <section class="sect-9"></section>
-        <section class="sect-10"></section>
-        <section class="sect-11"></section>
-        <section class="sect-12"></section>
+<div class="container-fluid yellow-bg" id="hero">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="row">
+                <div class="col-xs-10 offset-xs-1 col-md-8 offset-md-2">
+                    <div class="p-t-75 animated zoomIn">
+                        <img src="style/images/hello.png" alt="hello" id="hello">
+                    </div>
+                </div>
+            </div>
+            <div class="row m-t-50 text-xs-center text-sm-left">
+                <h5 class="col-sm-10 offset-sm-1 col-xs-12 m-t-25 m-b-50">
+                    Lead Visual Designer @ iCueMotion<br/>
+                    University of Virginia 2013<br/>
+                    Portfolio under construction
+                </h5>
+            </div>
+        </div>
+        <div class="col-sm-8" id="emily">
+        </div>
     </div>
-	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
-	<!--<script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>&lt;!&ndash; Tether for Bootstrap &ndash;&gt;-->
-	<!--<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.min.js"></script>&lt;!&ndash; Bootstrap &ndash;&gt;-->
-  </body>
+</div>
+
+<div class="container-fluid white-bg p-t-25">
+    <div class="row text-xs-center">
+        <div class="col-sm-3 m-b-50 col-xs-6 padding-10">
+            <div class="yellow-bg icon-container" id="resume-container">
+                <a href="style/download/EM-Resume.pdf" target="_blank">
+                    <h5>
+                        See resume
+                    </h5>
+                    <div id="resume" class="icon"></div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-3 m-b-50 col-xs-6 padding-10">
+            <div class="yellow-bg icon-container" id="linkedin-container">
+                <a href="https://www.linkedin.com/in/emilymacon" target="_blank">
+                    <h5>
+                        View Profile
+                    </h5>
+                    <div id="linkedin" class="icon"></div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-3 m-b-50 col-xs-6 padding-10">
+            <div class="yellow-bg icon-container" id="contact-container">
+                <a href="mailto:emilygmacon@gmail.com" target="_blank">
+                    <h5>
+                        Say hello
+                    </h5>
+                    <div id="contact" class="icon"></div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-3 m-b-50 col-xs-6 padding-10">
+            <div class="yellow-bg icon-container" id="kal-container">
+                <a href="kaleidoscope.html" target="_blank">
+                    <h5>
+                        Get funky
+                    </h5>
+                    <div id="kal" class="icon"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="container text-xs-center">
+        <span class="text-muted">EM Design @2016 All Rights Reserved</span>
+    </div>
+</footer>
+
+
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-52479080-2', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+</body>
 </html>
-
-
