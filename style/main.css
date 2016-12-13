@@ -164,13 +164,13 @@ h5 {
         min-height: 110px;
         min-width: 110px;
     }
-    #emily {
-        background: url('images/em.JPG') no-repeat top center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 500px;
-    }
+    /*#emily {*/
+        /*background: url('images/em.JPG') no-repeat top center;*/
+        /*-webkit-background-size: cover;*/
+        /*-moz-background-size: cover;*/
+        /*-o-background-size: cover;*/
+        /*background-size: cover;*/
+        /*!*height: 500px;*!*/
+    /*}*/
 }
 
