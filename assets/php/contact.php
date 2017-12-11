@@ -1,11 +1,14 @@
 <?php
 
+	mail('emilygmacon@gmailyourmail.com','Test mail','The mail function is working!');
+	echo 'Mail sent!';
+	
 	// Mail settings
 	$to      = "emilygmacon@gmail.com";
-	$subject = "Core Contact Form";
+	$subject = "Hi Emily!";
 
 	// You can put here your email
-	$header = "From: emilygmacon@gmail.com\r\n";
+	$header = "From: noreply@neomax.com\r\n";
 	$header.= "MIME-Version: 1.0\r\n";
 	$header.= "Content-Type: text/plain; charset=utf-8\r\n";
 	$header.= "X-Priority: 1\r\n";
