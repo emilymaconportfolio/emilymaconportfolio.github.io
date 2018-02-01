@@ -2,7 +2,7 @@
 
 	mail('emilygmacon@gmailyourmail.com','Test mail','The mail function is working!');
 	echo 'Mail sent!';
-	
+
 	// Mail settings
 	$to      = "emilygmacon@gmail.com";
 	$subject = "Hi Emily!";
@@ -22,7 +22,7 @@
 
 		if (mail($to, $subject, $content, $header)) {
 			$result = array(
-				"message"    => "Thanks for contacting us.",
+				"message"    => "Thanks for contacting me.",
 				"sendstatus" => 1
 			);
 
